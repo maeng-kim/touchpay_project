@@ -2,4 +2,5 @@
 <resources>
     <item name="baseLayout" type="id" />
     <item name="bt_address" type="id" />
+    <item name="spinner_field" type="id" />
 </resources>

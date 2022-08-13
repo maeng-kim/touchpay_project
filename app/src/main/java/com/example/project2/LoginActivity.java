@@ -21,6 +21,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 public class LoginActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
@@ -78,7 +79,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){ //로그인이 성공했으면
                             Toast.makeText(LoginActivity.this,"로그인 성공",Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(getApplicationContext(),JoinActivity.class);
+                            Intent intent = new Intent(getApplicationContext(),temp.class);
                             //intent.putExtra("nickName",account.getDisplayName());
                             //intent.putExtra("photoUrl",String.valueOf(account.getPhotoUrl()));
                             startActivity(intent);

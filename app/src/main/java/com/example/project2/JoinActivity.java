@@ -9,9 +9,12 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 
 public class JoinActivity extends AppCompatActivity {
+
+    EditText et_address;
 
     LinearLayout baseLayout;
     Button bt_address;
@@ -47,6 +50,7 @@ public class JoinActivity extends AppCompatActivity {
     public boolean onContextitemSelected(@NonNull MenuItem item){
         switch (item.getItemId()){
             case R.id.place1:
+                et_address.setText("성미관");
                 return true;
             case R.id.place2:
                 return true;

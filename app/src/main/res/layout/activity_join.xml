@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:inputType="phone"
         android:hint="전화번호"
-        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/et_name"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/et_name"
@@ -94,4 +94,5 @@
         app:layout_constraintEnd_toEndOf="@+id/et_gender"
         app:layout_constraintStart_toStartOf="@+id/et_gender"
         app:layout_constraintTop_toBottomOf="@+id/et_gender" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

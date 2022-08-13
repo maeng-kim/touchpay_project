@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="address">
+        <item>성미관</item>
+        <item>풍림</item>
+        <item>엠시티</item>
+        <item>그레이스타워</item>
+        <item>이율</item>
+        <item>장수스위트</item>
+        <item>운정그린빌</item>
+    </string-array>
+</resources>
