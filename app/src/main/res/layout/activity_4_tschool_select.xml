@@ -1,9 +1,380 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="._4_T_SchoolSelectActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/s_1"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:text="1호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#263C96"
+            app:layout_constraintEnd_toStartOf="@+id/s_2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/s_2"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="2호선"
+            android:textSize="34sp"
+            app:backgroundTint="#3CB94A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/s_3"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:text="3호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#FF7300"
+            app:layout_constraintEnd_toStartOf="@+id/s_4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_1" />
+
+        <Button
+            android:id="@+id/s_4"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="4호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#2C9EDE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_2" />
+
+        <Button
+            android:id="@+id/s_5"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:text="5호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#8936E0"
+            app:layout_constraintEnd_toStartOf="@+id/s_6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_3" />
+
+        <Button
+            android:id="@+id/s_6"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="6호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#B5500B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_4" />
+
+        <Button
+            android:id="@+id/s_7"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:text="7호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#697215"
+            app:layout_constraintEnd_toStartOf="@+id/s_6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_5" />
+
+        <Button
+            android:id="@+id/s_8"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="8호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#E51E6E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_6" />
+
+        <Button
+            android:id="@+id/s_9"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:text="9호선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#CEA43A"
+            app:layout_constraintEnd_toStartOf="@+id/s_I1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_7" />
+
+        <Button
+            android:id="@+id/s_I1"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="인천1호선"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:backgroundTint="#6F99D0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_8" />
+
+        <Button
+            android:id="@+id/s_I2"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="인천2호선"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:backgroundTint="#E1B850"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_9" />
+
+        <Button
+            android:id="@+id/s_SB"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="신분당선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#A71E31"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_I1" />
+
+        <android.widget.Button
+            android:id="@+id/s_GU"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/gu_button"
+            android:text="경의중앙선"
+            android:textColor="#A3D4C0"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/s_GC"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_I2" />
+
+        <android.widget.Button
+            android:id="@+id/s_GC"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gc_button"
+            android:text="경춘선"
+            android:textSize="34sp"
+            android:textColor="#19B484"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_SB" />
+
+        <Button
+            android:id="@+id/s_SI"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:text="수인분당"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#FFCE33"
+            app:layout_constraintEnd_toStartOf="@+id/s_GH"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_GU" />
+
+        <android.widget.Button
+            android:id="@+id/s_GH"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gh_button"
+            android:text="공항철도"
+            android:textColor="#73B6E4"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_GC"/>
+
+        <android.widget.Button
+            android:id="@+id/s_SR"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="신림선"
+            android:background="@drawable/sr_button"
+            android:textColor="#4E67A5"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toStartOf="@+id/s_UJ"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_SI" />
+
+        <android.widget.Button
+            android:id="@+id/s_UJ"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/uj_button"
+            android:text="의정부선"
+            android:textColor="#FE9D27"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_GH" />
+
+        <android.widget.Button
+            android:id="@+id/s_EV"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ev_button"
+            android:text="에버라인"
+            android:textColor="#77C371"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_SR" />
+
+        <Button
+            android:id="@+id/s_GG"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="경강선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#2673F2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_UJ" />
+
+        <Button
+            android:id="@+id/s_UI"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:text="우이신설"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#C6C100"
+            app:layout_constraintEnd_toStartOf="@+id/s_SH"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_EV" />
+
+        <Button
+            android:id="@+id/s_SH"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/round_button"
+            android:text="서해선"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:backgroundTint="#8BC53F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_GG" />
+
+        <android.widget.Button
+            android:id="@+id/s_GP"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gp_button"
+            android:text="김포골드라인"
+            android:textColor="#96710A"
+            android:textSize="26sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_UI" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
