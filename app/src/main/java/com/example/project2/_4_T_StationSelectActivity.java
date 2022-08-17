@@ -57,6 +57,14 @@ public class _4_T_StationSelectActivity extends AppCompatActivity {
                 }
             });
 
+            s_3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_s3Activity.class);
+                    startActivity(intent);
+                }
+            });
+
 
 
     }
