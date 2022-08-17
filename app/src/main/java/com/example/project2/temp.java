@@ -23,9 +23,10 @@ import org.json.JSONObject;
 
 public class temp extends AppCompatActivity {
 
-    private EditText et_name, et_phonenum;
+    private EditText et_name,et_phonenum;
     private Spinner sp_address,sp_gender;
     private Button bt_next;
+    private String str_address="",str_gender="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +81,6 @@ public class temp extends AppCompatActivity {
         sp_address.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
             }
 
             @Override

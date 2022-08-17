@@ -18,7 +18,7 @@ public class TempRequste extends StringRequest {
     public TempRequste(String userName, int userNum, String userAddress, String userGender, Response.Listener<String> listener){
         super(Method.POST,URL,listener,null);
 
-        map=new HashMap<>();
+        map = new HashMap<>();
         map.put("userName",userName);
         map.put("userNum",userNum + "");
         map.put("userAddress",userAddress);
