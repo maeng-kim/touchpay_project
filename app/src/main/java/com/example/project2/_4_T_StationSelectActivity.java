@@ -115,6 +115,40 @@ public class _4_T_StationSelectActivity extends AppCompatActivity {
                 }
             });
 
+            s_I1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_sI1Activity.class);
+                    startActivity(intent);
+                }
+            });
+
+            s_I2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_s2Activity.class);
+                    startActivity(intent);
+                }
+            });
+
+            s_SB.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_sSBActivity.class);
+                    startActivity(intent);
+                }
+            });
+
+            s_GU.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_sGUActivity.class);
+                    startActivity(intent);
+                }
+            });
+
+
+
 
 
 
