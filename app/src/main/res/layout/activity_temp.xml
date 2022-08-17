@@ -16,6 +16,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="이름"
+        android:fontFamily="@font/soojin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,6 +28,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="전화번호"
+        android:fontFamily="@font/soojin"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="@+id/et_name"
         app:layout_constraintHorizontal_bias="1.0"

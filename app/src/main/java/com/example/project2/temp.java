@@ -58,7 +58,7 @@ public class temp extends AppCompatActivity {
                             boolean success = jsonObject.getBoolean("success");
                             if(success){
                                 Toast.makeText(getApplicationContext(),"회원가입 완료",Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(temp.this,ListActivity.class);
+                                Intent intent = new Intent(temp.this,_2_DeliveryTaxiActivity.class);
                                 startActivity(intent);
                             } else{
                                 Toast.makeText(getApplicationContext(),"회원가입 실패",Toast.LENGTH_SHORT).show();
