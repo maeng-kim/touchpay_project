@@ -41,6 +41,14 @@ public class _4_T_StationSelectActivity extends AppCompatActivity {
             s_SH = findViewById(R.id.s_SH);
             s_GP = findViewById(R.id.s_GP);
 
+            s_1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_s1Activity.class);
+                    startActivity(intent);
+                }
+            });
+
 
 
             s_2.setOnClickListener(new View.OnClickListener() {
