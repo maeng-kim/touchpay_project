@@ -11,7 +11,7 @@
 
         <Button
             android:id="@+id/s_1"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="28dp"
@@ -27,7 +27,7 @@
 
         <Button
             android:id="@+id/s_2"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="8dp"
@@ -41,7 +41,7 @@
 
         <Button
             android:id="@+id/s_3"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -57,7 +57,7 @@
 
         <Button
             android:id="@+id/s_4"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -71,7 +71,7 @@
 
         <Button
             android:id="@+id/s_5"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -88,7 +88,7 @@
 
         <Button
             android:id="@+id/s_6"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -102,7 +102,7 @@
 
         <Button
             android:id="@+id/s_7"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -113,12 +113,13 @@
             android:textSize="34sp"
             app:backgroundTint="#697215"
             app:layout_constraintEnd_toStartOf="@+id/s_6"
+            app:layout_constraintHorizontal_bias="0.4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_5" />
 
         <Button
             android:id="@+id/s_8"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -132,7 +133,7 @@
 
         <Button
             android:id="@+id/s_9"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -148,7 +149,7 @@
 
         <Button
             android:id="@+id/s_I1"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -162,21 +163,23 @@
 
         <Button
             android:id="@+id/s_I2"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/round_button"
             android:text="인천2호선"
             android:textColor="@color/white"
             android:textSize="30sp"
             app:backgroundTint="#E1B850"
+            app:layout_constraintEnd_toStartOf="@+id/s_SB"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_9" />
 
         <Button
             android:id="@+id/s_SB"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -190,7 +193,7 @@
 
         <android.widget.Button
             android:id="@+id/s_GU"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -206,7 +209,7 @@
 
         <android.widget.Button
             android:id="@+id/s_GC"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -219,7 +222,7 @@
 
         <Button
             android:id="@+id/s_SI"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -235,7 +238,7 @@
 
         <android.widget.Button
             android:id="@+id/s_GH"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -248,7 +251,7 @@
 
         <android.widget.Button
             android:id="@+id/s_SR"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -263,7 +266,7 @@
 
         <android.widget.Button
             android:id="@+id/s_UJ"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -276,20 +279,22 @@
 
         <android.widget.Button
             android:id="@+id/s_EV"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/ev_button"
             android:text="에버라인"
             android:textColor="#77C371"
             android:textSize="34sp"
+            app:layout_constraintEnd_toStartOf="@+id/s_GG"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_SR" />
 
         <Button
             android:id="@+id/s_GG"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -303,7 +308,7 @@
 
         <Button
             android:id="@+id/s_UI"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
@@ -319,7 +324,7 @@
 
         <Button
             android:id="@+id/s_SH"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="8dp"
@@ -333,16 +338,18 @@
 
         <android.widget.Button
             android:id="@+id/s_GP"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="120dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
             android:layout_marginBottom="30dp"
             android:background="@drawable/gp_button"
             android:text="김포골드라인"
             android:textColor="#96710A"
             android:textSize="26sp"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_UI" />
     </androidx.constraintlayout.widget.ConstraintLayout>
