@@ -6,4 +6,94 @@
     android:layout_height="match_parent"
     tools:context="._3_D_placeSelectActivity">
 
+    <Button
+        android:id="@+id/place6"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="장수스위트"
+        android:textSize="30sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place4" />
+
+    <Button
+        android:id="@+id/place2"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:text="풍림"
+        android:textSize="34sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/place1"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:text="성미관"
+        android:textSize="34sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toStartOf="@+id/place2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/place3"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:text="엠시티"
+        android:textSize="34sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toStartOf="@+id/place4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place1" />
+
+    <Button
+        android:id="@+id/place4"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="그레이스타워"
+        android:textSize="26sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place2" />
+
+    <Button
+        android:id="@+id/place5"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:text="이율"
+        android:textSize="34sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toStartOf="@+id/place6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place3" />
+
+    <Button
+        android:id="@+id/place7"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="운정그린빌"
+        android:textSize="30sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place5" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
