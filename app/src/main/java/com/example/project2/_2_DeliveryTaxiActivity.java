@@ -28,7 +28,7 @@ public class _2_DeliveryTaxiActivity extends AppCompatActivity {
         taxiButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), _4_T_SchoolSelectActivity.class);
+                Intent intent = new Intent(getApplicationContext(), _4_T_StationSelectActivity.class);
                 startActivity(intent);
             }
         });
