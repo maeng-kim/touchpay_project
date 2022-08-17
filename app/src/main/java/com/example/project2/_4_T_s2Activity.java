@@ -1,27 +1,41 @@
 package com.example.project2;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+import android.text.style.ClickableSpan;
+import android.text.style.URLSpan;
+import android.text.util.Linkify;
+import android.view.View;
 import android.widget.TextView;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class _4_T_s2Activity extends AppCompatActivity {
 
-    TextView Kkachisan,Sinjeongnegeori,YangcheonguOffice,Dorimcheon,Sindorim,Mullae,YeongdeungpoguOffice,Dangsan,Hapjeong,HongikUniv,Sinchon,EwhaWomansUniv;
-    TextView Ahyeon,Chungjeongno,CityHall,Euljiro1ga,Euljiro3ga,Euljiro4ga,DDP,Sindang,Sangwangsimni,Wangsimni,HanyangUniv;
-    TextView Ttukseom,Seongsu,Yongdap,Sindap,Yongdu,Sinseoldong,KonkukUniv,Guui,Gangbyeon,Jamsillaru,Jamsil,Jamsilsaenae;
-    TextView SportsComplex,Samseong,Seolleung,Yeoksam,Gangnam,SeoulNatlUnivofEducation,Seocho,Bangbae,Sadang,Nakseongdae;
-    TextView SeoulNatlUniv,Bongcheon,Sillim,Sindaebang,GuroDigitalComplex,Daerim;
+    private TextView Kkachisan,Sinjeongnegeori,YangcheonguOffice,Dorimcheon,Sindorim,Mullae,YeongdeungpoguOffice,Dangsan,Hapjeong,HongikUniv,Sinchon,EwhaWomansUniv;
+    private TextView Ahyeon,Chungjeongno,CityHall,Euljiro1ga,Euljiro3ga,Euljiro4ga,DDP,Sindang,Sangwangsimni,Wangsimni,HanyangUniv;
+    private TextView Ttukseom,Seongsu,Yongdap,Sindap,Yongdu,Sinseoldong,KonkukUniv,Guui,Gangbyeon,Jamsillaru,Jamsil,Jamsilsaenae;
+    private TextView SportsComplex,Samseong,Seolleung,Yeoksam,Gangnam,SeoulNatlUnivofEducation,Seocho,Bangbae,Sadang,Nakseongdae;
+    private TextView SeoulNatlUniv,Bongcheon,Sillim,Sindaebang,GuroDigitalComplex,Daerim;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_4_ts2);
 
+        Sindaebang = findViewById(R.id.Sindaebang);
         SeoulNatlUniv = findViewById(R.id.SeoulNatlUniv);
         Bongcheon = findViewById(R.id.Bongcheon);
         Sillim = findViewById(R.id.Sillim);
-        Sindaebang = findViewById(R.id.Sindaebang);
         GuroDigitalComplex = findViewById(R.id.GuroDigitalComplex);
 
         SportsComplex = findViewById(R.id.SportsComplex);

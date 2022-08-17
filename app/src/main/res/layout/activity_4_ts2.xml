@@ -17,10 +17,11 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
-            android:text="@string/Sindaebang"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Sillim" />
+            app:layout_constraintTop_toBottomOf="@+id/Sillim"
+            android:autoLink="web"
+            android:linksClickable="true"/>
 
         <TextView
             android:id="@+id/Yeoksam"
