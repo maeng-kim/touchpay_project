@@ -2,5 +2,5 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/taxi"
         android:height="180dp"
-        android:width="200dp" />
+        android:width="210dp" />
 </layer-list>
