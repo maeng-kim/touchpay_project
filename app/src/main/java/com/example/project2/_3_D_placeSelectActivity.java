@@ -24,39 +24,61 @@ public class _3_D_placeSelectActivity extends AppCompatActivity {
         place5 = findViewById(R.id.place5);
         place6 = findViewById(R.id.place6);
         place7 = findViewById(R.id.place7);
-    }
 
-    public void onClick(View v){
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        switch (v.getId()){
-            case R.id.place1:
-                intent.setData(Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995623"));
-                startActivity(intent);
-                break;
-            case R.id.place2:
-                intent.setData(Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995753"));
-                startActivity(intent);
-                break;
-            case R.id.place3:
-                intent.setData(Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995821"));
-                startActivity(intent);
-                break;
-            case R.id.place4:
-                intent.setData(Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995932"));
-                startActivity(intent);
-                break;
-            case R.id.place5:
-                intent.setData(Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262996001"));
-                startActivity(intent);
-                break;
-            case R.id.place6:
-                intent.setData(Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262996485"));
-                startActivity(intent);
-                break;
-            case R.id.place7:
-                intent.setData(Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262996641"));
-                startActivity(intent);
-                break;
-        }
+        place1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urlintent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995623"));
+                startActivity(urlintent);
+            }
+        });
+
+        place2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urlintent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995753"));
+                startActivity(urlintent);
+            }
+        });
+
+        place3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urlintent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995821"));
+                startActivity(urlintent);
+            }
+        });
+
+        place4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urlintent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262995932"));
+                startActivity(urlintent);
+            }
+        });
+
+        place5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urlintent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262996001"));
+                startActivity(urlintent);
+            }
+        });
+
+        place6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urlintent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262996485"));
+                startActivity(urlintent);
+            }
+        });
+
+        place7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent urlintent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://padlet.com/sohyeonj415/sswuTouchPayD/wish/2262996641"));
+                startActivity(urlintent);
+            }
+        });
     }
 }
