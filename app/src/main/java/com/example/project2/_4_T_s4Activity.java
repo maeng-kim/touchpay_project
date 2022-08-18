@@ -25,60 +25,6 @@ public class _4_T_s4Activity extends AppCompatActivity {
 
         tv_4station = findViewById(R.id.tv_4station);
 
-        /*Oido = findViewById(R.id.Oido);
-        Mia = findViewById(R.id.Mia);Suyu = findViewById(R.id.Suyu);
-        Ssangmun = findViewById(R.id.Ssangmun);
-        Changdong = findViewById(R.id.Changdong);
-        Nowon = findViewById(R.id.Nowon);
-        Sanggye = findViewById(R.id.Sanggye);
-        Danggogae = findViewById(R.id.Danggogae);
-        ByeollaeByeolgaram = findViewById(R.id.ByeollaeByeolgaram);
-        Onam = findViewById(R.id.Onam);
-        Jinjeop = findViewById(R.id.Jinjeop);
-
-        SookmyungWomensUniversity = findViewById(R.id.SookmyungWomensUniversity);
-        SeoulStation = findViewById(R.id.SeoulStation);
-        Hoehyeon = findViewById(R.id.Hoehyeon);
-        Myeongdong = findViewById(R.id.Myeongdong);
-        Chungmuro = findViewById(R.id.Chungmuro);
-        DDP = findViewById(R.id.DDP);
-        Dongdaemun = findViewById(R.id.Dongdaemun);
-        Hyehwa = findViewById(R.id.Hyehwa);
-        HansungUniv = findViewById(R.id.HansungUniv);
-        SungshinWomensUniversity = findViewById(R.id.SungshinWomensUniversity);
-        Gireum = findViewById(R.id.Gireum);
-        Miasageori = findViewById(R.id.Miasageori);
-
-        GovernmentComplexGwacheon = findViewById(R.id.GovernmentComplexGwacheon);
-        Surisan = findViewById(R.id.Surisan);
-        Gwacheon = findViewById(R.id.Gwacheon);
-        SeoulGrandPark = findViewById(R.id.SeoulGrandPark);
-        SeoulRacecoursePark = findViewById(R.id.SeoulRacecoursePark);
-        Seonbawi = findViewById(R.id.Seonbawi);
-        Namtaeryeong = findViewById(R.id.Namtaeryeong);
-        Sadang = findViewById(R.id.Sadang);
-        ChongshinUniv = findViewById(R.id.ChongshinUniv);
-        Dongjak = findViewById(R.id.Dongjak);
-        Ichon = findViewById(R.id.Ichon);
-        Sinyongsan = findViewById(R.id.Sinyongsan);
-        Samgakji = findViewById(R.id.Samgakji);
-
-        Jeongwang = findViewById(R.id.Jeongwang);
-        Singiloncheon = findViewById(R.id.Singiloncheon);
-        Ansan = findViewById(R.id.Ansan);
-        Choji = findViewById(R.id.Choji);
-        Gojan = findViewById(R.id.Gojan);
-        Jungang = findViewById(R.id.Jungang);
-        HanyangUnivatAnsan = findViewById(R.id.HanyangUnivatAnsan);
-        Sangnoksu = findViewById(R.id.Sangnoksu);
-        Banwol = findViewById(R.id.Banwol);
-        Daeyami = findViewById(R.id.Daeyami);
-        Sanbon = findViewById(R.id.Sanbon);
-        Geumjeong = findViewById(R.id.Geumjeong);
-        Beomgye = findViewById(R.id.Beomgye);
-        Pyeongchon = findViewById(R.id.Pyeongchon);
-        Indeogwon = findViewById(R.id.Indeogwon);*/
-
         String text4 = "오이도\n\n정왕\n\n신길온천\n\n안산\n\n초지\n\n고잔\n\n중앙\n\n한대앞\n\n상록수\n\n반월\n\n대야미\n\n수리산\n\n산본\n\n금정\n\n범계\n\n평촌\n\n인덕원\n\n정부과천청사\n\n과천\n\n대공원\n\n경마공원\n\n선바위\n\n남태령\n\n사당\n\n총신대입구(이수)\n\n동작\n\n이촌\n\n신용산\n\n삼각지\n\n숙대입구\n\n서울역\n\n회현\n\n명동\n\n충무로\n\n동대문역사문화공원\n\n동대문\n\n혜화\n\n한성대입구\n\n성신여대입구\n\n길음\n\n미아사거리\n\n미아\n\n수유\n\n쌍문\n\n창동\n\n노원\n\n상계\n\n당고개\n\n별내별가람\n\n오남\n\n진접";
         tv_4station.setText(text4);
 
