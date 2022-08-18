@@ -147,6 +147,86 @@ public class _4_T_StationSelectActivity extends AppCompatActivity {
                 }
             });
 
+        s_GC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sGCActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_SI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sSIActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_GH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sGHActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_SR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sSRActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_UJ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sUJActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_EV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sEVActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_GG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sGGActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_UI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sUIActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_SH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sSHActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        s_GP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), _4_T_sGPActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 
