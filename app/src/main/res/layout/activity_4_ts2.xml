@@ -15,13 +15,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="신대방"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Sillim"
-            android:autoLink="web"
-            android:linksClickable="true"/>
+            app:layout_constraintTop_toBottomOf="@+id/Sillim" />
 
         <TextView
             android:id="@+id/Yeoksam"

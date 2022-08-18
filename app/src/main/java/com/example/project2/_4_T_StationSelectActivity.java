@@ -126,7 +126,7 @@ public class _4_T_StationSelectActivity extends AppCompatActivity {
             s_I2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(getApplicationContext(), _4_T_s2Activity.class);
+                    Intent intent = new Intent(getApplicationContext(), _4_T_sI2Activity.class);
                     startActivity(intent);
                 }
             });
