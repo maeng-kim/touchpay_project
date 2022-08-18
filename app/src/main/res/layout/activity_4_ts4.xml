@@ -28,12 +28,10 @@
             android:id="@+id/s4"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
-            android:layout_marginStart="181dp"
+            android:layout_marginStart="120dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="181dp"
             android:text="4호선에서 출발하기"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,7 +42,9 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
             android:text="정산하기"
-            android:textSize="11sp"
+            android:background="@drawable/round_button"
+            android:fontFamily="@font/soojin"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
