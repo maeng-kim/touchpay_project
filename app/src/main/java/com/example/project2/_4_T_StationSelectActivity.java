@@ -203,29 +203,29 @@ public class _4_T_StationSelectActivity extends AppCompatActivity {
                 }
             });
 
-        s_UI.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), _4_T_sUIActivity.class);
-                startActivity(intent);
-            }
-        });
+            s_UI.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_sUIActivity.class);
+                    startActivity(intent);
+                }
+            });
 
-        s_SH.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), _4_T_sSHActivity.class);
-                startActivity(intent);
-            }
-        });
+            s_SH.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_sSHActivity.class);
+                    startActivity(intent);
+                }
+            });
 
-        s_GP.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), _4_T_sGPActivity.class);
-                startActivity(intent);
-            }
-        });
+            s_GP.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getApplicationContext(), _4_T_sGPActivity.class);
+                    startActivity(intent);
+                }
+            });
 
 
 
