@@ -53,6 +53,9 @@
             android:name="._4_T_s2Activity"
             android:exported="false" />
         <activity
+            android:name="._4_T_s1Activity"
+            android:exported="false" />
+        <activity
             android:name="._4_T_StationSelectActivity"
             android:exported="false" />
         <activity
