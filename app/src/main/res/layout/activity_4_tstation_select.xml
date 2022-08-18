@@ -87,7 +87,6 @@
             android:textSize="34sp"
             app:backgroundTint="#8936E0"
             app:layout_constraintEnd_toStartOf="@+id/s_6"
-            app:layout_constraintHorizontal_bias="0.4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_3" />
 
@@ -120,7 +119,6 @@
             android:textSize="34sp"
             app:backgroundTint="#697215"
             app:layout_constraintEnd_toStartOf="@+id/s_6"
-            app:layout_constraintHorizontal_bias="0.4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_5" />
 
@@ -216,7 +214,6 @@
             android:textColor="#A3D4C0"
             android:textSize="30sp"
             app:layout_constraintEnd_toStartOf="@+id/s_GC"
-            app:layout_constraintHorizontal_bias="0.4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/s_I2" />
 
