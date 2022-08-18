@@ -97,10 +97,7 @@
         <activity
             android:name=".Result_activity"
             android:exported="false" />
-        <activity android:name=".DetailActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".JoinActivity" />
-        <activity android:name=".ListActivity" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" >
