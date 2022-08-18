@@ -2,14 +2,18 @@ package com.example.project2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.util.Linkify;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class _4_T_s4Activity extends AppCompatActivity {
+    Button jsButton;
 
     private TextView tv_4station;
 
@@ -22,6 +26,15 @@ public class _4_T_s4Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_4_ts4);
+        jsButton=findViewById(R.id.jsButton);
+
+        jsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), JSActivity.class);
+                startActivity(intent);
+            }
+        });
 
         tv_4station = findViewById(R.id.tv_4station);
 

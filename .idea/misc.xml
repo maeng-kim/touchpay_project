@@ -3,12 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HANSY/AndroidStudioProjects/touchpay_project/app/src/main/res/drawable-v24/taxixml.xml" value="0.1" />
-        <entry key="..\:/Users/HANSY/AndroidStudioProjects/touchpay_project/app/src/main/res/layout/activity_2_delivery_taxi.xml" value="0.286231884057971" />
-        <entry key="..\:/Users/HANSY/AndroidStudioProjects/touchpay_project/app/src/main/res/layout/activity_4_ts2.xml" value="0.35597826086956524" />
-        <entry key="..\:/Users/HANSY/AndroidStudioProjects/touchpay_project/app/src/main/res/layout/activity_4_ts_i2.xml" value="0.35597826086956524" />
-        <entry key="..\:/Users/HANSY/AndroidStudioProjects/touchpay_project/app/src/main/res/layout/activity_4_ts_ujactivity.xml" value="0.35597826086956524" />
-        <entry key="..\:/Users/HANSY/AndroidStudioProjects/touchpay_project/app/src/main/res/layout/activity_4_tstation_select.xml" value="0.35597826086956524" />
         <entry key="..\:/Users/i8768/Project1/touchpay_project/app/src/main/res/layout/activity_join.xml" value="0.22" />
         <entry key="..\:/Users/i8768/Project1/touchpay_project/app/src/main/res/layout/activity_login.xml" value="0.175" />
         <entry key="..\:/Users/i8768/Project1/touchpay_project/app/src/main/res/menu/menu_address.xml" value="0.17395833333333333" />
@@ -30,7 +24,7 @@
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/drawable-v24/uj_button.xml" value="0.1835" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_2_delivery_taxi.xml" value="0.1480978260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_3_dplace_select.xml" value="0.16168478260869565" />
-        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts1.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts1.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts2.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts3.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts4.xml" value="0.3333333333333333" />
@@ -39,19 +33,27 @@
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts7.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts8.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts9.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_evactivity.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_gcactivity.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_ggactivity.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_ghactivity.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_gpactivity.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_guactivity.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_i1.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_i2.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_sbactivity.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_shactivity.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_siactivity.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_sractivity.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_uiactivity.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_ts_ujactivity.xml" value="0.16168478260869565" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_tschool_select.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_4_tstation_select.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/user/Android Studio/touchpay_project/app/src/main/res/layout/activity_jsactivity.xml" value="0.16168478260869565" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
