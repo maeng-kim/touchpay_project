@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/taxi"
-        android:height="180dp"
-        android:width="210dp" />
+        android:height="160dp"
+        android:width="200dp" />
 </layer-list>
