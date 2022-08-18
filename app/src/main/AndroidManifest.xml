@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.project2">
+    package="com.example.project2" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,7 +15,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name="._4_T_sGPActivity"
+            android:exported="false" />
+        <activity
+            android:name="._4_T_sSHActivity"
+            android:exported="false" />
+        <activity
+            android:name="._4_T_sUIActivity"
+            android:exported="false" />
+        <activity
+            android:name="._4_T_sGGActivity"
+            android:exported="false" />
+        <activity
+            android:name="._4_T_sEVActivity"
+            android:exported="false" />
+        <activity
+            android:name="._4_T_sUJActivity"
+            android:exported="false" />
+        <activity
+            android:name="._4_T_sSRActivity"
+            android:exported="false" />
         <activity
             android:name="._4_T_sSIActivity"
             android:exported="false" />
@@ -82,7 +103,7 @@
         <activity android:name=".ListActivity" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
