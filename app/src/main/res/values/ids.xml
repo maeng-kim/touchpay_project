@@ -3,4 +3,15 @@
     <item name="baseLayout" type="id" />
     <item name="bt_address" type="id" />
     <item name="spinner_field" type="id" />
+    <item name="Jeongja" type="id">정자</item>
+    <item name="YangjaeCitizensForest" type="id">양재시민의숲</item>
+    <item name="Gwanggyo" type="id">광교</item>
+    <item name="Migeum" type="id">미금</item>
+    <item name="Dongcheon" type="id">동천</item>
+    <item name="Cheonggyesan" type="id">청계산입구</item>
+    <item name="Sanghyeon" type="id">상현</item>
+    <item name="GwanggyoJungang" type="id">광교중앙</item>
+    <item name="Pangyo" type="id">판교</item>
+    <item name="Seongbok" type="id">성복</item>
+    <item name="SujiguOffice" type="id">수지구청</item>
 </resources>
