@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class _3_D_placeSelectActivity extends AppCompatActivity {
+    Button jsButton;
 
     private Button place1,place2,place3,place4,place5,place6,place7;
 
@@ -16,6 +17,16 @@ public class _3_D_placeSelectActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3_dplace_select);
+
+        jsButton=findViewById(R.id.jsButton);
+
+        jsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), JSActivity.class);
+                startActivity(intent);
+            }
+        });
 
         place1 = findViewById(R.id.place1);
         place2 = findViewById(R.id.place2);
